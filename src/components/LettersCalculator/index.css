@@ -1,0 +1,83 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 769px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.input-label {
+  color: #e4e7eb;
+  font-size: 10px;
+  font-family: 'Roboto';
+  padding-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .input-label {
+    font-size: 15px;
+  }
+}
+
+.search-input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    min-width: 330px;
+  }
+}
+.count-latter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #219a6f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  height: 40px;
+  width: 140px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .count-latter-container {
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+  }
+}
+.image {
+  max-height: 300px;
+  max-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    min-height: 500px;
+    min-width: 500px;
+  }
+}
